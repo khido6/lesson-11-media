@@ -18,7 +18,7 @@ header{
     max-width: 1500px;
     margin: 0px auto;
     align-items: center;
-    padding: 50px 200px 200px 200px;
+    padding: 30px 150px 280px 150px;
 }
 nav,
 nav ul,
@@ -44,4 +44,46 @@ nav li {
     width: 50px;
     height: 1px;
     margin-top: 5px;
+}
+.container-block{
+    max-width: 1200px;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    margin-top: -200px;
+}
+.sec-list{
+    margin-top: 55px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container-block{
+    position: relative;
+}
+.container-block > img{
+    width: 100%;
+    display: block;
+}
+.container-block {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+}
+.pharagraph{
+    margin-top: 50px;
+}
+.pharagraph p{
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 20px;
+}
+.info{
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.mail{
+    width: 20px;
 }
