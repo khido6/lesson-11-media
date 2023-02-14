@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    background-color: #0020F4;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin: 0px auto;
+    align-items: center;
+    padding: 50px 200px 200px 200px;
+}
+nav ,nav ul,nav li{
+    display: flex;
+    gap: 30px;
+    color: #FFFFFF;
+    align-items: center;
+}
+.mtavari::after{
+    content: '';
+    display: block;
+    background-color: rgb(25, 26, 36);
+    width: 50px;
+    height: 1px;
+    margin-top: 5px;
+}
+.contact{
+    background-color: #ffffff;
+    padding: 10px 25px;
+    color: #171717;
+    border-radius: 20px;
+}
