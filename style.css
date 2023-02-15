@@ -45,43 +45,47 @@ nav li {
     height: 1px;
     margin-top: 5px;
 }
+.set-main{
+    margin-top: -100px;
+}
 .container-block{
     max-width: 1200px;
     margin: 0px auto;
-    flex-wrap: wrap;
-    margin-top: -200px;
 }
 .sec-list{
-    margin-top: 55px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin: 0px auto;
+    margin-top: 70px;
+    max-width: 1200px;
 }
-.container-block{
-    position: relative;
-}
-.container-block > img{
+.block-img{
     width: 100%;
-    display: block;
-}
-.container-block {
-    position: absolute;
-    width: 100%;
-    top: 50%;
+    margin-bottom: 45px;
 }
 .pharagraph{
-    margin-top: 50px;
-}
-.pharagraph p{
-    flex-wrap: wrap;
     max-width: 900px;
     margin: 0px auto;
-    display: block;
+    margin-top: 50px;
+}
+.pharagraph > p{
     margin-bottom: 20px;
 }
 .info{
-    margin-top: 70px;
-    margin-bottom: 150px;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: none;
+}
+.info > a{
+    background-color: #0A22F4;
+    padding: 18px 50px;
+    border-radius: 25px;
+}
+.but-on{
+    color: #ffffff;
 }
 
 .mail{
