@@ -1,0 +1,18 @@
+@media (max-width: 1024px){
+    .navigation{
+        display: none;
+    }
+    header .container{
+        padding-bottom: 150px;
+        margin: 0px auto;
+        justify-content: center;
+    }
+    .set-main{
+        margin:0px auto;
+        width: 90%;
+    }
+    .set-main img{
+        border-radius: 25px;
+        width: 100%;
+    }
+}
