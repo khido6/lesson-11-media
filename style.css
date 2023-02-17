@@ -163,6 +163,14 @@ label{
     font-size: 15px;
     color: black;
 }
+.linear{
+    background: linear-gradient(135deg, #608ead, #9b59b6);
+    height: 1px;
+    width: 1170px;
+    margin: 0px auto;
+    margin-bottom: 17px;
+    opacity: 0.5;
+}
 .last-set{
     display: flex;
     justify-content: space-between;
