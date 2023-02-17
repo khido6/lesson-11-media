@@ -113,6 +113,8 @@ iframe{
 .phone-mail{
     display: flex;
     gap: 10px;
+    width: 580px;
+    justify-content: space-between;
 }
 .biuro{
     display: flex;
@@ -122,11 +124,58 @@ iframe{
 }
 .biuro img{
     background-color: #ffffff;
-    padding: 10px 10px;
-    border-radius: 30px;
+    padding: 20px 20px;
+    border-radius: 35px;
 }
 .biuro a{
-    font-size: 20px;
+    font-size: 22px;
     color: #ffffff;
+}
+.forma form .user-details{
+    margin: 0px auto;
+    margin-top: 100px;
+    width: 300px;
+}
+label{
+    display: block;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+.user-details input{
+    border: none;
+    background-color: #0020f4;
+    border-bottom: 1px solid black;
+    width: 350px;
+    opacity: 0.5;
+    margin-bottom: 30px;
+}
+.box-box label{
+    margin-bottom: 80px;
+}
+.user-details button{
+    margin-left: 210px;
+}
+.space{
+    background-color: #ffffff;
+    border: none;
+    padding: 15px 20px 15px 20px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: black;
+}
+.last-set{
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin: 0px auto;
+    padding-bottom: 20px; 
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+}
+.last-set .last{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
