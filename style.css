@@ -160,6 +160,9 @@ label{
 .user-details button{
     margin-left: 110px;
 }
+.user-details h1{
+    display: none;
+}
 .space{
     flex-wrap: wrap;
     background-color: #ffffff;
@@ -172,7 +175,7 @@ label{
 .linear{
     background: linear-gradient(135deg, #608ead, #9b59b6);
     height: 1px;
-    width: 1170px;
+    max-width: 1170px;
     width: 100%;
     margin: 0px auto;
     margin-bottom: 17px;
@@ -182,7 +185,7 @@ label{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 1150px;
+    max-width: 1150px;
     margin: 0px auto;
     width: 100%;
     padding-bottom: 20px; 

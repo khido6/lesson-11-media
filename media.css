@@ -15,4 +15,52 @@
         border-radius: 25px;
         width: 100%;
     }
+    .sec-list img{
+        max-width: 47%;
+    }
+    .pharagraph p{
+        letter-spacing: 2px;
+    }
+    .text{
+        display: none;
+    }
+    .info a{
+        width: 400px;
+        font-size: 15px;
+        margin-top: -35px;
+    }
+    footer .contain{
+        flex-direction: column-reverse;
+    }
+    .forma .user-details h1{
+        display: block;
+        margin-top: -200px;
+        margin-bottom: 50px;
+        color: #ffffff;
+    }
+    .forma form .user-details h1{
+        margin-left: -110px;
+    }
+    .forma form .user-details .input-box{
+        margin-left: -120px;
+        padding: 19px;
+    }
+    .forma form .user-details .box-box{
+        margin-left: -120px; 
+        padding: 15px;
+    }
+    /*.user-details button .space{
+        margin-left: -110px;
+    როგორ შეიძლებოდა ამის გაკეთბა?}*/
+    
+    .contain .cont-cont h1{
+        display: none;
+    }
+    .contain .cont-cont p{
+        display: none;
+    }
+    .cont-cont{
+        width: 80%;
+        margin-top: 50px;
+    }
 }
