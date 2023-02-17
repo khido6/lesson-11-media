@@ -87,7 +87,46 @@ nav li {
 .but-on{
     color: #ffffff;
 }
-
-.mail{
-    width: 20px;
+footer{
+    background-color: #0020f4;
 }
+.contain{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding: 150px 150px;
+}
+.cont-cont h1{
+    color: #ffffff;
+}
+.cont-cont p{
+    width: 450px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    color: #ffffff;
+}
+iframe{
+    border-radius: 20px;
+}
+.phone-mail{
+    display: flex;
+    gap: 10px;
+}
+.biuro{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+.biuro img{
+    background-color: #ffffff;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+.biuro a{
+    font-size: 20px;
+    color: #ffffff;
+}
+
