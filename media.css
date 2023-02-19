@@ -29,6 +29,12 @@
         font-size: 15px;
         margin-top: -35px;
     }
+    footer {
+        padding: 0px 15px;
+      }
+    .cont-cont iframe{
+        width: 100%;
+    }
     footer .contain{
         flex-direction: column-reverse;
     }
@@ -39,20 +45,17 @@
         color: #ffffff;
     }
     .forma form .user-details h1{
-        margin-left: -110px;
+        margin-left: 0px auto;
     }
     .forma form .user-details .input-box{
-        margin-left: -120px;
+        margin-left: 0px auto;
         padding: 19px;
     }
     .forma form .user-details .box-box{
-        margin-left: -120px; 
+        margin-left: 0px auto; 
         padding: 15px;
     }
-    /*.user-details button .space{
-        margin-left: -110px;
-    როგორ შეიძლებოდა ამის გაკეთბა?}*/
-    
+        
     .contain .cont-cont h1{
         display: none;
     }
@@ -60,7 +63,13 @@
         display: none;
     }
     .cont-cont{
-        width: 80%;
+        width: 100%;
         margin-top: 50px;
+    }
+    .phone-mail .biuro{
+        width: 100%;
+    }
+    footer .last-set{
+        flex-direction: column-reverse;
     }
 }
